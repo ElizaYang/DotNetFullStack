@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using FriendsApp.API.Data;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace FriendsApp.API.Controllers
 {
@@ -11,18 +13,25 @@ namespace FriendsApp.API.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        private readonly DataContext _context;
+        public ValuesController(DataContext context)
+        {
+            this._context = context;
+        }
         // GET api/values
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public async Task<IActionResult> Get()
         {
-            return new string[] { "hello word!", "value1", "value2" };
+            var values = await _context.Values.ToListAsync();// use ef to get the table which called Values
+            return Ok(values);
         }
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        public async Task<IActionResult> Get(int id)
         {
-            return "value";
+            var value = await _context.Values.FirstOrDefaultAsync(x => x.Id == id); // x is each entry, compare entry id with query
+            return Ok(value);
         }
 
         // POST api/values
