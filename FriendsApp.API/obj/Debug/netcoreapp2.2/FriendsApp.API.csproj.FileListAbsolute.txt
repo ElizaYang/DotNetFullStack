@@ -26,3 +26,17 @@ C:\Users\eliza\Desktop\DotNetFullStack\FriendsApp.API\obj\Debug\netcoreapp2.2\Fr
 C:\Users\eliza\Desktop\DotNetFullStack\FriendsApp.API\obj\Debug\netcoreapp2.2\FriendsApp.API.RazorTargetAssemblyInfo.cache
 C:\Users\eliza\Desktop\DotNetFullStack\FriendsApp.API\obj\Debug\netcoreapp2.2\FriendsApp.API.dll
 C:\Users\eliza\Desktop\DotNetFullStack\FriendsApp.API\obj\Debug\netcoreapp2.2\FriendsApp.API.pdb
+C:\Users\renzhuo\Desktop\DotNetFullStack\FriendsApp.API\bin\Debug\netcoreapp2.2\FriendsApp.API.deps.json
+C:\Users\renzhuo\Desktop\DotNetFullStack\FriendsApp.API\bin\Debug\netcoreapp2.2\FriendsApp.API.runtimeconfig.json
+C:\Users\renzhuo\Desktop\DotNetFullStack\FriendsApp.API\bin\Debug\netcoreapp2.2\FriendsApp.API.runtimeconfig.dev.json
+C:\Users\renzhuo\Desktop\DotNetFullStack\FriendsApp.API\bin\Debug\netcoreapp2.2\FriendsApp.API.dll
+C:\Users\renzhuo\Desktop\DotNetFullStack\FriendsApp.API\bin\Debug\netcoreapp2.2\FriendsApp.API.pdb
+C:\Users\renzhuo\Desktop\DotNetFullStack\FriendsApp.API\obj\Debug\netcoreapp2.2\FriendsApp.API.csprojAssemblyReference.cache
+C:\Users\renzhuo\Desktop\DotNetFullStack\FriendsApp.API\obj\Debug\netcoreapp2.2\FriendsApp.API.csproj.CoreCompileInputs.cache
+C:\Users\renzhuo\Desktop\DotNetFullStack\FriendsApp.API\obj\Debug\netcoreapp2.2\FriendsApp.API.RazorAssemblyInfo.cache
+C:\Users\renzhuo\Desktop\DotNetFullStack\FriendsApp.API\obj\Debug\netcoreapp2.2\FriendsApp.API.RazorAssemblyInfo.cs
+C:\Users\renzhuo\Desktop\DotNetFullStack\FriendsApp.API\obj\Debug\netcoreapp2.2\FriendsApp.API.AssemblyInfoInputs.cache
+C:\Users\renzhuo\Desktop\DotNetFullStack\FriendsApp.API\obj\Debug\netcoreapp2.2\FriendsApp.API.AssemblyInfo.cs
+C:\Users\renzhuo\Desktop\DotNetFullStack\FriendsApp.API\obj\Debug\netcoreapp2.2\FriendsApp.API.RazorTargetAssemblyInfo.cache
+C:\Users\renzhuo\Desktop\DotNetFullStack\FriendsApp.API\obj\Debug\netcoreapp2.2\FriendsApp.API.dll
+C:\Users\renzhuo\Desktop\DotNetFullStack\FriendsApp.API\obj\Debug\netcoreapp2.2\FriendsApp.API.pdb

@@ -12413,30 +12413,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\eliza\\.nuget\\packages\\": {},
+    "C:\\Users\\renzhuo\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\eliza\\Desktop\\DotNetFullStack\\FriendsApp.API\\FriendsApp.API.csproj",
+      "projectUniqueName": "c:\\Users\\renzhuo\\Desktop\\DotNetFullStack\\FriendsApp.API\\FriendsApp.API.csproj",
       "projectName": "FriendsApp.API",
-      "projectPath": "C:\\Users\\eliza\\Desktop\\DotNetFullStack\\FriendsApp.API\\FriendsApp.API.csproj",
-      "packagesPath": "C:\\Users\\eliza\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\eliza\\Desktop\\DotNetFullStack\\FriendsApp.API\\obj\\",
+      "projectPath": "c:\\Users\\renzhuo\\Desktop\\DotNetFullStack\\FriendsApp.API\\FriendsApp.API.csproj",
+      "packagesPath": "C:\\Users\\renzhuo\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\renzhuo\\Desktop\\DotNetFullStack\\FriendsApp.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\eliza\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\renzhuo\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
