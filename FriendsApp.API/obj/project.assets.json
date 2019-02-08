@@ -12419,11 +12419,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\eliza\\Desktop\\DotNetFullStack\\FriendsApp.API\\FriendsApp.API.csproj",
+      "projectUniqueName": "C:\\Users\\eliza\\Desktop\\DotNetFullStack\\FriendsApp.API\\FriendsApp.API.csproj",
       "projectName": "FriendsApp.API",
-      "projectPath": "c:\\Users\\eliza\\Desktop\\DotNetFullStack\\FriendsApp.API\\FriendsApp.API.csproj",
+      "projectPath": "C:\\Users\\eliza\\Desktop\\DotNetFullStack\\FriendsApp.API\\FriendsApp.API.csproj",
       "packagesPath": "C:\\Users\\eliza\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\eliza\\Desktop\\DotNetFullStack\\FriendsApp.API\\obj\\",
+      "outputPath": "C:\\Users\\eliza\\Desktop\\DotNetFullStack\\FriendsApp.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
