@@ -9,5 +9,6 @@ namespace FriendsApp.API.Data
         {
         }
         public DbSet<Value> Values { get; set; } // "Values" is the table name, value is the each object name
+        public DbSet<User> Users { get; set; }
     }
 }
