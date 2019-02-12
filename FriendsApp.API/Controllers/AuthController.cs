@@ -66,7 +66,7 @@ namespace FriendsApp.API.Controllers
                 new Claim(ClaimTypes.Name, userFromRepo.Username)
             };
             // generate sysmmetric key object using pre-config Token
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config.GetSection("AppSetting:Token").Value));
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config.GetSection("AppSettings:Token").Value));
             // generate creds object using key
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha512);
             // generate descriptor
