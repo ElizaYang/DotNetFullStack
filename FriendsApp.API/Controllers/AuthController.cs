@@ -1,5 +1,6 @@
 using System.Threading.Tasks;
 using FriendsApp.API.Data;
+using FriendsApp.API.Dtos;
 using FriendsApp.API.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -14,21 +15,28 @@ namespace FriendsApp.API.Controllers
         {
             this._repo = repo;
         }
+        [HttpGet]
+        public string Get()
+        {
+            return "hello from auth";
+        }
+
+
         [HttpPost("register")]
         public async Task<IActionResult> Register(UserForRegisterDto userForRegisterDto)
         {
             // validation request
             
             // get username to lowercase
-            username = username.ToLower();
-            if (await _repo.UserExists(username))
+            userForRegisterDto.Username = userForRegisterDto.Username.ToLower();
+            if (await _repo.UserExists(userForRegisterDto.Username))
                 return BadRequest("Username already exist");
             var userToCreate = new User
             {
-                Username = username
+                Username = userForRegisterDto.Username
             };
 
-            var createdUser = await _repo.Register(userToCreate, password);
+            var createdUser = await _repo.Register(userToCreate, userForRegisterDto.Password);
             
             return StatusCode(201); // http 201: created
         }
