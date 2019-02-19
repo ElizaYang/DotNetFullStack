@@ -13,7 +13,7 @@ export class NavComponent implements OnInit {
   model: any = {};
   // "model" is a field name of this class, blined in nav.html
   // inject AuthService to the constructor
-  constructor(public authService: AuthService, private alertify: AlertifyService, 
+  constructor(public authService: AuthService, private alertify: AlertifyService,
     private router: Router) { }
 
   ngOnInit() {

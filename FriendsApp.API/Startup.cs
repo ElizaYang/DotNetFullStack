@@ -37,6 +37,7 @@ namespace FriendsApp.API
             services.AddDbContext<DataContext>(x => x.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddCors(); // corss-origin resource sharing
+            services.AddTransient<DataSeed>();
             services.AddScoped<IAuthRepository, AuthRepository>();
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(options => 
@@ -52,7 +53,7 @@ namespace FriendsApp.API
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, DataSeed seeder)
         {
             if (env.IsDevelopment())
             {
@@ -78,6 +79,7 @@ namespace FriendsApp.API
             }
 
             // app.UseHttpsRedirection();
+            // seeder.SeedUsers();
             // service http cors policy
             app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
             app.UseAuthentication();
