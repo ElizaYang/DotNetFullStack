@@ -39,6 +39,7 @@ namespace FriendsApp.API
             services.AddCors(); // corss-origin resource sharing
             services.AddTransient<DataSeed>();
             services.AddScoped<IAuthRepository, AuthRepository>();
+            services.AddScoped<IUserOpRepository, UserOpRepository>();
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(options => 
                     options.TokenValidationParameters = new TokenValidationParameters
