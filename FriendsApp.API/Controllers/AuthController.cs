@@ -23,6 +23,7 @@ namespace FriendsApp.API.Controllers
             _config = config;
             this._repo = repo;
         }
+        
         [HttpGet]
         public string Get()
         {
@@ -48,6 +49,7 @@ namespace FriendsApp.API.Controllers
 
             return StatusCode(201); // http 201: created
         }
+
         [HttpPost("login")]
         public async Task<IActionResult> Login(UserForLoginDto userForLoginDto)
         {
